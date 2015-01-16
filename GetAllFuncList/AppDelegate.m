@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GetAllFuncList.h"
 
 @interface AppDelegate ()
 
@@ -15,12 +16,28 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (IBAction)openFile:(id)sender {
+    
+    NSOpenPanel *panel = [NSOpenPanel openPanel];
+    panel.canChooseDirectories = YES;
+    panel.canChooseFiles = NO;
+    [panel beginSheetModalForWindow:self.window completionHandler:^(NSInteger result) {
+        if(result == 0)
+            return ;
+        
+       NSString * path = [panel.URL path];
+       self.textVIew.string = [GetAllFuncList openWithPath:path];
+    }];
 }
+
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
+    
+}
+
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
-
 @end

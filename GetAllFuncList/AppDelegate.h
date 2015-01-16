@@ -10,6 +10,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)openFile:(id)sender;
+
+@property (unsafe_unretained) IBOutlet NSTextView *textVIew;
 
 @end
 

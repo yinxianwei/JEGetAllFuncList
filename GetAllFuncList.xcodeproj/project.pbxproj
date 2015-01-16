@@ -12,6 +12,7 @@
 		D079E8221A68B2A500AEFD6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D079E8211A68B2A500AEFD6A /* Images.xcassets */; };
 		D079E8251A68B2A500AEFD6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D079E8231A68B2A500AEFD6A /* MainMenu.xib */; };
 		D079E8311A68B2A500AEFD6A /* GetAllFuncListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D079E8301A68B2A500AEFD6A /* GetAllFuncListTests.m */; };
+		D079E83C1A68BDA900AEFD6A /* GetAllFuncList.m in Sources */ = {isa = PBXBuildFile; fileRef = D079E83B1A68BDA900AEFD6A /* GetAllFuncList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		D079E82A1A68B2A500AEFD6A /* GetAllFuncListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetAllFuncListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D079E82F1A68B2A500AEFD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D079E8301A68B2A500AEFD6A /* GetAllFuncListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetAllFuncListTests.m; sourceTree = "<group>"; };
+		D079E83A1A68BDA900AEFD6A /* GetAllFuncList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllFuncList.h; sourceTree = "<group>"; };
+		D079E83B1A68BDA900AEFD6A /* GetAllFuncList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllFuncList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				D079E81C1A68B2A500AEFD6A /* AppDelegate.h */,
 				D079E81D1A68B2A500AEFD6A /* AppDelegate.m */,
+				D079E83A1A68BDA900AEFD6A /* GetAllFuncList.h */,
+				D079E83B1A68BDA900AEFD6A /* GetAllFuncList.m */,
 				D079E8211A68B2A500AEFD6A /* Images.xcassets */,
 				D079E8231A68B2A500AEFD6A /* MainMenu.xib */,
 				D079E81A1A68B2A500AEFD6A /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				D079E8201A68B2A500AEFD6A /* main.m in Sources */,
 				D079E81E1A68B2A500AEFD6A /* AppDelegate.m in Sources */,
+				D079E83C1A68BDA900AEFD6A /* GetAllFuncList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
